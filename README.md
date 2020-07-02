@@ -8,7 +8,7 @@ The focus will be on great UX, a powerful rule engine and integration with other
 
 We are currently maintaining [a working protoype](https://threatdragon.org/) in sych with the master code branch.
 
-An [OWASP Incubator Project](https://www.owasp.org/index.php/OWASP_Threat_Dragon).
+An [OWASP Incubator Project](https://owasp.org/www-project-threat-dragon/).
 
 **Project leader:** Mike Goodwin (mike.goodwin@owasp.org)
 
