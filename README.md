@@ -1,5 +1,7 @@
 # [OWASP](https://www.owasp.org) Threat Dragon #
 
+This repo provides the documentation site, at https://threatdragon.github.io .
+
 An online threat modelling web application including system diagramming and a rule engine to auto-generate threats/mitigations. 
 The focus will be on great UX, a powerful rule engine and integration with other development lifecycle tools.
 
