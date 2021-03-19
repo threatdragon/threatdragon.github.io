@@ -18,4 +18,6 @@ please contribute your ideas and time if you can.
 * browse to http://localhost:4000/ to check all is good
 * build the site with `bundle exec jekyll build`
 
-**Project leader:** Mike Goodwin (mike.goodwin@owasp.org)
+### Project leaders:
+Mike Goodwin (mike.goodwin@owasp.org)
+Jon Gadsden (jon.gadsden@owasp.org)
