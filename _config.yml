@@ -1,0 +1,33 @@
+# Site settings
+# Used to personalize the Threat Dragon site
+# Accessed via {{ site.title }}, {{ site.email }}, and so on, in the HTML files
+# Create custom variable,
+# and they will be accessible in the templates via {{ site.myvariable }}
+
+title: Threat Dragon
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  OWASP Threat Dragon, for threat modelling activities
+baseurl: ""
+url: ""
+twitter_username: jekyllrb
+github_username:  threatdragon
+
+# Build settings
+theme: just-the-docs
+plugins:
+  - jekyll-feed
+search_enabled: false
+
+# Aux links for the upper right navigation
+aux_links:
+  "Try the web app":
+    - "//threatdragon.org"
+  "Download the desktop app":
+    - "//github.com/OWASP/threat-dragon-desktop/releases"
+  "Source code on GitHub":
+    - "//github.com/OWASP/threat-dragon"
+  "OWASP project page":
+    - "//owasp.org/www-project-threat-dragon"
+# Make Aux links open in a new tab
+aux_links_new_tab: true

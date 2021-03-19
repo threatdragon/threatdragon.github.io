@@ -1,64 +1,18 @@
 # [OWASP](https://www.owasp.org) Threat Dragon #
 
-This repo provides the documentation site, at https://threatdragon.github.io .
+This repo provides the [documentation site](https://threatdragon.github.io)
+for [Threat Dragon](http://owasp.org/www-project-threat-dragon).
 
-An online threat modelling web application including system diagramming and a rule engine to auto-generate threats/mitigations. 
-The focus will be on great UX, a powerful rule engine and integration with other development lifecycle tools.
+Threat Dragon is a threat modelling application which provides model diagramming and a rule engine to auto-generate threats/mitigations. 
+The future of this project will be to focus will be on a powerful rule engine
+and integration with other development lifecycle tools.
 
-We are currently maintaining [a working protoype](https://threatdragon.org/) in sych with the master code branch.
+Threat Dragon is an [OWASP Incubator Project](https://owasp.org/www-project-threat-dragon/),
+please contribute your ideas and time if you can.
 
-An [OWASP Incubator Project](https://owasp.org/www-project-threat-dragon/).
+## Testing the docs pages
+* make sure you have jekyll installed, following the [github docs](https://docs.github.com/en/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll)
+* run the site locally with `bundle exec jekyll serve`
+* browse to http://127.0.0.1:4000/ to check all is good
 
 **Project leader:** Mike Goodwin (mike.goodwin@owasp.org)
-
-##Getting started
-
-ThreatDragon is a Single Page Application (SPA) using Angular on the client and node.js on the server, althought the server side code does almost nothing so far.
-To build and run locally, follow these steps:
-
-Install Git and node.js. Threat Dragon uses Grunt for its build workflow, so
-
-`npm install -g grunt-cli`
-
-To get the code, go to where you want your code to be located and do
-
-`git init`
-
-`git clone https://github.com/owasp/threat-dragon.git`
-
-This installs code in two sub-folders. One for the main application (`td`) and one for the unit tests (`td.tests`). Get all the node packages:
-
-`npm install`
-
-All the build workflow task are in the default grunt task, so just do
-
-`grunt` or `grunt release`
-
-and then start the node web server:
-
-`npm start`
-
-If you then browse to `http://localhost:3000` you should see the running application.
-
-##Debug builds
-
-The default build minifies the Javascript and CSS. It does build code maps, but if you want to run with
-unminified files, do:
-
-`grunt debug`
-
-then
-
-`npm start`
-
-##Running the unit tests
-
-The unit tests are written using Jasmine and can be run with Karma using a Grunt task or using npm. Install recent versions of Chrome, Firefox and IE then run the tests using
-
-`grunt test`
-
-To test using PhantomJS and Firefox (this is what runs on the Travis CI server)
-
-`npm test`
-
-**Note:** If you are on Windows and are having problems installing Karma, the simplest way to resolve this seems to be to install Python v2.7.x (not v3+) and then install Visual Studio Express as per the SO answer suggested in [this link](http://codedmi.com/questions/298619/npm-install-g-karma-error-msb4019-the-imported-project-c-microsoft-cpp-defau). This sounds mad, but the alternative is a world of pain installing various patches and components one by one. At least it's free :o/
