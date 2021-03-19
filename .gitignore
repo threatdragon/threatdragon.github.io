@@ -1,6 +1,3 @@
-# jekyll generated files
-_site
-
 # ignore Apple's desktop store files
 .DS_Store
 **/.DS_Store
