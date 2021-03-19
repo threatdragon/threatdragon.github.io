@@ -9,16 +9,15 @@ email: jon.gadsden@owasp.org
 description: >- # this means to ignore newlines until "baseurl:"
   OWASP Threat Dragon, for threat modelling activities
 baseurl: ""
-url: "http://threatdragon.github.io"
+url: ""
 twitter_username: ThreatDragon
 github_username:  threatdragon
 
 # Build settings
-theme: just-the-docs
+remote_theme: pmarsceill/just-the-docs
 plugins:
   - jekyll-feed
 search_enabled: false
-destination: docs
 
 # Aux links for the upper right navigation
 aux_links:
