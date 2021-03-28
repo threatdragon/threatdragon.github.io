@@ -1,6 +1,6 @@
 # [OWASP](https://www.owasp.org) Threat Dragon #
 
-[![OWASP ZAP scan](https://github.com/owasp/threatdragon.github.io/actions/workflows/zap_scan.yaml/badge.svg)](https://github.com/owasp/threatdragon.github.io/actions/workflows/zap_scan.yaml)
+[![OWASP ZAP scan](https://github.com/threatdragon/threatdragon.github.io/actions/workflows/zap_scan.yaml/badge.svg)](https://github.com/threatdragon/threatdragon.github.io/actions/workflows/zap_scan.yaml)
 
 This repo provides the [documentation site](https://threatdragon.github.io)
 for [Threat Dragon](http://owasp.org/www-project-threat-dragon).
