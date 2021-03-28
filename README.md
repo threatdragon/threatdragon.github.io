@@ -1,5 +1,7 @@
 # [OWASP](https://www.owasp.org) Threat Dragon #
 
+[![OWASP ZAP scan](https://github.com/owasp/threatdragon.github.io/actions/workflows/zap_scan.yaml/badge.svg)](https://github.com/owasp/threatdragon.github.io/actions/workflows/zap_scan.yaml)
+
 This repo provides the [documentation site](https://threatdragon.github.io)
 for [Threat Dragon](http://owasp.org/www-project-threat-dragon).
 
@@ -19,5 +21,5 @@ please contribute your ideas and time if you can.
 * build the site with `bundle exec jekyll build`
 
 ### Project leaders:
-Mike Goodwin (mike.goodwin@owasp.org)
-Jon Gadsden (jon.gadsden@owasp.org)
+* Mike Goodwin (mike.goodwin@owasp.org)
+* Jon Gadsden (jon.gadsden@owasp.org)
