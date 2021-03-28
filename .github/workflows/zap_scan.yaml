@@ -1,4 +1,4 @@
-name: OWASP ZAP baseline scan for Threat Dragon
+name: OWASP ZAP scan
 on:
   pull_request:
     types: [ closed ]
