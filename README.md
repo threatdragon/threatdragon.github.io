@@ -15,7 +15,7 @@ please contribute your ideas and time if you can.
 ## Testing the docs pages
 * make sure you have jekyll installed, following the
 [github docs](https://docs.github.com/en/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll)
-* istall with `bundle install`
+* install with `bundle install`
 * run the site locally with `bundle exec jekyll serve`
 * browse to http://localhost:4000/ to check all is good
 * build the site with `bundle exec jekyll build`
