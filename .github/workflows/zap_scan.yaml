@@ -1,5 +1,5 @@
 name: OWASP ZAP baseline scan for Threat Dragon
-  on: [push, pull_request]
+on: [push, pull_request]
   schedule:
     # Runs every Monday At 01:00.
     - cron:  '0 1 * * 1'
