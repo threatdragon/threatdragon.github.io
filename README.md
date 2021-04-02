@@ -21,5 +21,5 @@ please contribute your ideas and time if you can.
 * build the site with `bundle exec jekyll build`
 
 ### Project leaders:
-* Mike Goodwin (mike.goodwin@owasp.org)
-* Jon Gadsden (jon.gadsden@owasp.org)
+* [Mike Goodwin](mailto:mike.goodwin@owasp.org)
+* [Jon Gadsden](mailto:jon.gadsden@owasp.org)
