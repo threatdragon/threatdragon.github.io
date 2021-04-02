@@ -23,5 +23,6 @@ For secure disclosure, please see the [security policy](https://github.com/OWASP
 
 ### Project leaders
 
-Mike Goodwin (mike.goodwin@owasp.org)
-Jon Gadsden (jon.gadsden@owasp.org)
+[Mike Goodwin](mailto:mike.goodwin@owasp.org)
+
+[Jon Gadsden](mailto:jon.gadsden@owasp.org)
