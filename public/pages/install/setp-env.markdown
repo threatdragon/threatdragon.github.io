@@ -3,7 +3,7 @@ layout: page
 title: Web app environment
 parent: Install
 permalink: /setup-env/
-nav_order: 2
+nav_order: 4
 ---
 
 ## [OWASP](https://www.owasp.org) Threat Dragon
