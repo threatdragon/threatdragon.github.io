@@ -62,10 +62,8 @@ or **Reload** to undo any changes and revert to your last save.
 
 In the web variant of Threat Dragon, models are saved in your chosen branch at a path like
 `ThreatDragonModels/[model name]/[model title].json`, 
-Look at the [Demo Threat Model](https://github.com/mike-goodwin/owasp-threat-dragon-demo) for an example.
-Because of this, if you change title of your model it will delete the old model in GitHub
+so if you change title of your model it will delete the old model in GitHub
 and replace it with one at the new path.
-This does not apply to the desktop variant.
 
 Congratulations! You have got the basics done. Next step ...
 mapping out your system [in a diagram](/threat-model-diagrams).
