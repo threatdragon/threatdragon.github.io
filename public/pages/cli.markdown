@@ -7,14 +7,18 @@ nav_order: 7
 
 ## [OWASP](https://www.owasp.org) Threat Dragon
 
+Threat Dragon can be run from the command line and there is a command line interface
+which can be used to access some Threat Dragon features.
+
+### Run Threat Dragon from the command line
 With the desktop version of [Threat Dragon](http://owasp.org/www-project-threat-dragon) installed,
 and if the executable is in the environment path, then Threat Dragon can be run from the command line.
 
-For example after install on MacOS and Linux:
+For example on MacOS and Linux:
 
 `OWASP-Threat-Dragon`
 
-or after install on Windows:
+or after installing on Windows:
 
 `OWASP-Threat-Dragon.exe`
 
@@ -22,17 +26,18 @@ AppImage does not need installation, so after downloading version 1.3.1 (for exa
 
 `./OWASP-Threat-Dragon-1.3.1.AppImage`
 
-There is also a command line interface which can be used (again if the executable is in the environment path)
-to directly access some of Threat Dragon's functionality.
-For example run this command to get help :
+### Threat Dragon command line interface
+The command line interface can be used to directly access some of Threat Dragon's functionality.
+
+Ensure that the executable is in the environment path and run this command to get help :
 
 `OWASP-Threat-Dragon --help`
 
-Or to export a given threat model file to pdf :
+A threat model file can be exported to pdf :
 
 `OWASP-Threat-Dragon --pdf ./threat-model.json --verbose`
 
-If on Windows:
+Or for Windows:
 
 `OWASP-Threat-Dragon.exe --pdf .\threat-model.json --verbose`
 
@@ -63,6 +68,7 @@ Options:
 ```
 
 Verbosity can be increased from the default of 'error':<br>
-`-v` warnings and info<br>
-`-vv` verbose and debug<br>
-`-vvv` silly<br>
+`-v` add warnings and info<br>
+`-vv` add verbose and debug<br>
+`-vvv` all levels of logging<br>
+

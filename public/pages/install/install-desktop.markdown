@@ -12,7 +12,7 @@ nav_order: 3
 desktop application and web application.
 
 ## Desktop application install instructions
-Installable versions are available for download from the [OWASP GitHub area](https://github.com/OWASP/threat-dragon-desktop/releases):
+Installable versions are available for download from the [OWASP GitHub area](https://github.com/OWASP/threat-dragon/releases):
 
 * Windows (64 bit) installer
 * MacOS installer
@@ -20,7 +20,7 @@ Installable versions are available for download from the [OWASP GitHub area](htt
 
 ### Linux installer and AppImage
 Packages for both Debian and Fedora Linux on AMD64 and X86-64bit platforms can be downloaded from the
-[releases folder](https://github.com/OWASP/threat-dragon-desktop/releases/).
+[releases folder](https://github.com/OWASP/threat-dragon/releases/).
 Alternatively a platform independent snap installer can be downloaded, or use the AppImage provided.
 
 ### MacOS installer
@@ -30,31 +30,35 @@ Open the download and drag 'OWASP Threat  Dragon' to the application directory. 
 finished then Threat  Dragon can be run from launchpad or Finder -> Applications.
 
 If an error message pops up when running for the first time, along the lines of 
-_'OWASP Threat Dragon cannot be opened because the developer cannot be verified'_ or 
-_“OWASP ZAP” cannot be opened because the developer cannot be verified,_
-_macOS cannot verify that this app is free from malware_ then follow
-[this FAQ](https://github.com/OWASP/threat-dragon-desktop/wiki/FAQs#why-do-i-get-developer-can-not-be-verified-errors-after-installing-on-macos)
+_'“OWASP-Threat-Dragon” can’t be opened because Apple cannot check it for malicious software'_
+then follow [this FAQ](https://github.com/OWASP/threat-dragon/wiki/FAQs#why-do-i-get-apple-cannot-check-it-for-malicious-software-errors-after-installing-on-macos)
 to resolve this.
+
+There may be different error messages for older versions of Threat Dragon,
+in which case try [this FAQ](https://github.com/OWASP/threat-dragon/wiki/FAQs#why-do-i-get-developer-can-not-be-verified-errors-after-installing-on-macos). 
 
 ### Windows installer
 Download the Windows .exe installer from the
-[releases folder](https://github.com/OWASP/threat-dragon-desktop/releases/).
+[releases folder](https://github.com/OWASP/threat-dragon/releases/).
 Run the installer and invoke the application from the shortcut.
 The current versions of the desktop application are not code-signed, so you may get a warning when installing.
 
 ### Command line using npm
 
-For the latest versions of code between releases, `npm` can be used to install and run Threat Dragon locally:
+For the latest versions of code between releases, `npm` can be used to install
+and run Threat Dragon Desktop locally:
 
-`git clone https://github.com/owasp/threat-dragon-desktop`
+`git clone https://github.com/owasp/threat-dragon`
+
+`cd threat-dragon/td.desktop`
 
 `npm install`
 
 Then to run it:
 
-`npm run start`
+`npm start`
 
-There is a limited command line interface, with help:
+There is a command line interface, run help to see what commands are available:
 
 `npm run help`
 

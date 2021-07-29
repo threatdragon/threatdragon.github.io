@@ -24,8 +24,8 @@ search_enabled: false
 aux_links:
   "Try the web app":
     - "//threatdragon.org"
-  "Download the desktop app":
-    - "//github.com/OWASP/threat-dragon-desktop/releases"
+  "Download the app":
+    - "//github.com/OWASP/threat-dragon/releases"
   "Source code on GitHub":
     - "//github.com/OWASP/threat-dragon"
   "OWASP project page":
