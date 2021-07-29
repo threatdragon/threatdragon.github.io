@@ -25,7 +25,7 @@ from OWASP, and this expands on what the Threat Dragon project aims for:
 
 The application comes in two variants:
 
-1. [**A desktop application**](https://github.com/OWASP/threat-dragon-desktop/releases): This is based on
+1. [**A desktop application**](https://github.com/OWASP/threat-dragon/releases): This is based on
 [Electron](https://electron.atom.io/), with model files stored on the local filesystem.
 There are installers available for both Windows and Mac OSX, as well as rpm and debian packages for Linux.
 

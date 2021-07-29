@@ -20,7 +20,7 @@ There is some configuration necessary, so see the
 
 ### Desktop application
 Installable versions are available for download from the
-[OWASP GitHub area](https://github.com/OWASP/threat-dragon-desktop/releases):
+[OWASP GitHub area](https://github.com/OWASP/threat-dragon/releases):
 
 * Windows (64 bit) installer
 * MacOS installer
