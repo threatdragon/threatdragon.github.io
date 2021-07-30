@@ -48,11 +48,12 @@ The current versions of the desktop application are not code-signed, so you may 
 For the latest versions of code between releases, `npm` can be used to install
 and run Threat Dragon Desktop locally:
 
-`git clone https://github.com/owasp/threat-dragon`
-
-`cd threat-dragon/td.desktop`
-
-`npm install`
+```
+git clone https://github.com/owasp/threat-dragon
+cd threat-dragon/td.desktop
+npm install
+npm run build
+```
 
 Then to run it:
 
