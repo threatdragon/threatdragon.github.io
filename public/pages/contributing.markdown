@@ -2,7 +2,7 @@
 layout: page
 title: Contributing
 permalink: /contribute/
-nav_order: 8
+nav_order: 9
 ---
 
 ## [OWASP](https://www.owasp.org) Threat Dragon
