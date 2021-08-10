@@ -16,7 +16,7 @@ community then this would be most  welcome, see the [contributing guide](/contri
 
 ### Conversion from Microsoft Threat Modeling Tool
 
-The [TMT2TD python script](https://github.com/OWASP/threat-dragon/blob/main/utils/TMT2TD/TMT2TD.py)
+The [TMT2TD python script](https://raw.githubusercontent.com/owasp/threat-dragon/main/utils/TMT2TD/TMT2TD.py)
 converts an Microsoft Threat Modeling Tool file `.tm7` file to a Threat Dragon `.json` file.
 
 Run the script using python and select the TM7 file, the script will then output a
