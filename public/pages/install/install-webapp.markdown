@@ -20,15 +20,15 @@ Threat Dragon is a Single Page Application (SPA) using Angular on the client and
 To build and run locally follow these steps:
 
 Install git and node.js - which includes the node package manager npm.
-To get the code, navigate to where you want your code to be located and do
-
-`git init`
+To get the code, navigate to where you want your code to be located and run command:
 
 `git clone --recursive https://github.com/owasp/threat-dragon.git`
 
-This installs code in two sub-folders. One for the main application (`td.site`) and one for the server (`td.server`). To install, do:
+This downloads the code into a directory called `threat-dragon` and contains the application code in two sub-folders,
+one for the back-end application (`td.server`) and one for the front-end (`td.site`).
 
-`npm install`
+To install, run: `npm install` from the root of the project.
+A `postinstall` script is run that will install dependencies in both the `server` and `site` directories as well.
 
 ### Environment variables
 
