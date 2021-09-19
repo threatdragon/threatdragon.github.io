@@ -74,7 +74,7 @@ Note that we are suing the example values for these variables, and the values ob
 the 'Values for the environment variables' section **must** be used instead.
 
 ## Check it is running
-You should now be able to start Threat Dragon web application using `npm run-script start`
+You should now be able to start Threat Dragon web application using `npm start`
 and then navigate in a browser to "http://localhost:3000/"
 
 ### Example OAuth registration
