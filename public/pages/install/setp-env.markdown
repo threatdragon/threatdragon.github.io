@@ -20,7 +20,7 @@ Setting up the web application environment variables for [Threat Dragon](http://
 1. **Application description**: not critical, for example 'Threat Dragon local development'
 1. **Authorization callback URL**: `http://localhost:3000/oauth/github`
 
-* Register the application, an example screenshot is at the bottom of this document
+* Register the application, an example screenshot [is shown below](#example-oauth-registration).
 
 * In this new OAuth App, note the values for the 20 character long Client ID (used here `01234567890123456789`)
 and the 40 character long Client Secret (used here `0123456789abcdef0123456789abcdef01234567`)
@@ -30,17 +30,17 @@ and the 40 character long Client Secret (used here `0123456789abcdef0123456789ab
 You now have all the info to set up the environment variables.
 
 ## Configuring Environment Variables
-Environment variables can be configured by exporting variables to your terminal from which you'll be running
-Threat Dragon, or by using a `.env` file as described below.  
+Environment variables can be configured by [exporting variables](#using-command-line) to your terminal
+from which you'll be running Threat Dragon, or by using a `.env` file [as described below](#using-dotenv).  
 
-### Dotenv
+### Using Dotenv
 If you are using dotenv then place a file named `.env` at the root of the project with your environment variables.
 An `example.env` is provided as a reference.
 Threat Dragon will then load any variables in this file as environment variables,
-and you do not need to setup the environment variables from the command line.
+and you do not need to setup the environment variables [from the command line](#using-command-line).
 
-### Command line
-If you are not using dotenv, then the environment variables can be set from the command line.
+### Using Command line
+If you are not using [dotenv](#using-dotenv), then the environment variables can be set from the command line.
 
 #### MacOS / Linux
 For MacOS and Linux go into the terminal from which you start Threat Dragon and enter at the
@@ -57,6 +57,9 @@ for example `export SESSION_SIGNING_KEY=11223344556677889900aabbccddeeff`
 for example `export SESSION_ENCRYPTION_KEYS='[{"isPrimary": true, "id": 0, "value": "11223344556677889900aabbccddeeff"}]'`
 * GITHUB_SCOPE - set this to `repo` if you want access also to private repos
 
+Note that we are suing the example values for these variables, and the values obtained in 
+the 'Values for the environment variables' section **must** be used instead.
+
 #### Windows
 Similarly for Windows, from the terminal used to start Threat Dragon enter at the
 command line:
@@ -67,10 +70,14 @@ command line:
 * `set SESSION_SIGNING_KEY=11223344556677889900aabbccddeeff`
 * `set SESSION_ENCRYPTION_KEYS='[{"isPrimary": true, "id": 0, "value": "11223344556677889900aabbccddeeff"}]'`
 
+Note that we are suing the example values for these variables, and the values obtained in 
+the 'Values for the environment variables' section **must** be used instead.
+
+## Check it is running
 You should now be able to start Threat Dragon web application using `npm run-script start`
 and then navigate in a browser to "http://localhost:3000/"
 
-### What it looks like
+### Example OAuth registration
 Example screenshot of registering a new OAuth application:
 
 ![Register new OAuth application](/public/images/register-new-OAuth-application.png)
