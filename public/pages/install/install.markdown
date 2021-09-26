@@ -19,7 +19,7 @@ There is some configuration necessary, so see the
 [install instructions](/install-webapp/) for configuring the application.
 
 ### Desktop application
-Installable versions are available for download from the
+Installers can be downloaded from the
 [OWASP GitHub area](https://github.com/OWASP/threat-dragon/releases):
 
 * Windows (64 bit) installer

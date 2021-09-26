@@ -42,13 +42,13 @@ The Title field is mandatory. All the rest are optional, but they provide contex
 This can be useful if someone else has to pick the model up in the future.
 Click on the **Edit** button to start editing the threat model details.
 
-* Title - mandatory, all orhter fields are optional
+* Title - mandatory, all other fields are optional
 * Owner - typically a dev team or an individual
 * Reviewer - only one reviewer at present
 * High level system description - provides context for your model
 * Contributors - giving credit where it is due
 
-You can add new contributors by clickin on 'Add a new contributor ...'.
+You can add new contributors by clicking on 'Add a new contributor ...'.
 
 Add some diagrams to your model by clicking on 'Add a new diagram ...'
 

@@ -12,9 +12,13 @@ nav_order: 1
 desktop application and web application.
 
 ## Web application install instructions
-The web application can be run locally or from a server.
+The web application can be run locally or by using a remote server.
 
-### Installing
+### Using a Docker container
+Pull the Threat Dragon docker image using `docker pull threatdragon/owasp-threat-dragon:latest`.
+The environment variables will need setting up and there is a [step-by-step guide](/setup-env/) to help with this.
+
+### Installing from source
 
 Threat Dragon is a Single Page Application (SPA) using Angular on the client and node.js on the server.
 To build and run locally follow these steps:
@@ -76,4 +80,3 @@ Once your environment variables are set up, start the node web server:
 `npm start`
 
 If you then browse to `http://localhost:3000` you should see the running application.
-
