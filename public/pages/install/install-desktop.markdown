@@ -12,7 +12,7 @@ nav_order: 3
 desktop application and web application.
 
 ## Desktop application install instructions
-Installable versions are available for download from the [OWASP GitHub area](https://github.com/OWASP/threat-dragon/releases):
+Installers can be downloaded from the [OWASP GitHub area](https://github.com/OWASP/threat-dragon/releases):
 
 * Windows (64 bit) installer
 * MacOS installer

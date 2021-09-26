@@ -22,10 +22,15 @@ Edit the title and then save (or cancel) your changes.
 
 Add model elements to your diagram by clicking or tapping the relevant shape
 in the stencil on the left side of the diagram editor.
-Once added they can be selected by clicking them to see their properties
-and threats and dragged around the diagram.
+
+![diagram elements](/public/images/elements-horiz.png)
+
+Once added they can be selected by clicking them to dragged around the diagram
+and also to see their properties and threats.
+
 To delete an element, first select it and then click on the red icon in the
 element's top left corner like so:
+
 
 ![the element delete tool](/public/images/processelement.png)
 
