@@ -20,3 +20,5 @@ Recording of Mike Goodwin giving a
 [step 3](/public/downloads/enter-the-dragon-3.json),
 [(final) step 4](/public/downloads/enter-the-dragon-4.json).
 
+'Enter the Dragon' slie deck [in PDF](/public/downloads/enter-the-dragon.pdf)
+and [Libre Office OpenDocument Presentation](/public/downloads/enter-the-dragon.odp)
