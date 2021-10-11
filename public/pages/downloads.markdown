@@ -23,7 +23,7 @@ Recording of Mike Goodwin giving a
 'Enter the Dragon' slide deck [in PDF](/public/downloads/enter-the-dragon.pdf)
 and [OpenDocument Presentation](/public/downloads/enter-the-dragon.odp) (Libre Office)
 
-#### OWASP Bristol chapter
+#### [OWASP Bristol chapter](https://owasp.org/www-chapter-bristol-uk/)
 Presentation at the Bristol chapter [meeting November 2019](https://www.meetup.com/OWASP-Bristol/events/261525682/)
 in [OpenDocument Presentation format](/public/downloads/OWASP_threat_dragon.odp).
 
