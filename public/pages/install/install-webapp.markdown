@@ -18,6 +18,17 @@ The web application can be run locally or by using a remote server.
 Pull the Threat Dragon docker image using `docker pull threatdragon/owasp-threat-dragon:latest`.
 The environment variables will need setting up and there is a [step-by-step guide](/setup-env/) to help with this.
 
+Once the environment is set up and the docker image is ready, then run the docker container using a command such as:
+
+```
+docker run -it --rm -p 3000:3000 -v $(pwd)/.env:/app/.env docker.io/threatdragon/owasp-threat-dragon:v1.5.8
+```
+
+assuming:
+* use of port 3000, this can be changed to another port for example `-p 3000:5000` for port 5000
+* you are running from the directory  which contains the `.env` file
+* it was version `1.5.8` that was pulled from dockerhub. Replace with later versions as necessary
+
 ### Installing from source
 
 Threat Dragon is a Single Page Application (SPA) using Angular on the client and node.js on the server.
