@@ -21,10 +21,9 @@ Recording of Mike Goodwin giving a
 
 #### [OWASP Portland Training Day 2021](https://owasp.org/www-revent-portland-training-day/)
 'Enter the Dragon' demonstration model
-[(first) step 1](/public/downloads/enter-the-dragon-1.json),
-[step 2](/public/downloads/enter-the-dragon-2.json),
-[step 3](/public/downloads/enter-the-dragon-3.json),
-[(final) step 4](/public/downloads/enter-the-dragon-4.json).
+[first step](/public/downloads/enter-the-dragon-1.json) is the project creation,
+[second step](/public/downloads/enter-the-dragon-2.json) has the diagram filled in,
+and [final step](/public/downloads/enter-the-dragon-3.json) includes some threats
 
 'Enter the Dragon' slide deck [in PDF](/public/downloads/enter-the-dragon.pdf)
 and Libre Office [OpenDocument Presentation](/public/downloads/enter-the-dragon.odp)
