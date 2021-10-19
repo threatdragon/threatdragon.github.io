@@ -10,6 +10,10 @@ nav_order: 4
 
 Setting up the web application environment variables for [Threat Dragon](http://owasp.org/www-project-threat-dragon).
 
+## Configuring Environment Variables
+Environment variables can be configured by [exporting variables](#using-command-line) to your terminal
+from which you'll be running Threat Dragon, or by using a  `.env` [local file](#using-dotenv).
+
 ### Values for the environment variables
 
 * In your github account, go to `Settings -> 'Developer settings' -> 'OAuth Apps' -> 'New OAuth App'`
@@ -28,10 +32,6 @@ and the 40 character long Client Secret (used here `0123456789abcdef0123456789ab
 * Generate a random 32 character hexadecimal key (something like `11223344556677889900aabbccddeeff`)
 
 You now have all the info to set up the environment variables.
-
-## Configuring Environment Variables
-Environment variables can be configured by [exporting variables](#using-command-line) to your terminal
-from which you'll be running Threat Dragon, or by using a `.env` file [as described below](#using-dotenv).  
 
 ### Using Dotenv
 If you are using dotenv then place a file named `.env` at the root of the project with your environment variables.
