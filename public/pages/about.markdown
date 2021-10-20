@@ -12,7 +12,7 @@ cross-platform [threat modeling](https://owasp.org/www-community/Threat_Modeling
 application including system diagramming and a rule engine to auto-generate threats/mitigations.
 Threat Dragon supports STRIDE<sup>[1](#footnote1)</sup>, LINDUN<sup>[2](#footnote2)</sup> and CIA<sup>[3](#footnote3)</sup>.
 
-It is an [OWASP Incubator Project](https://owasp.org/www-project-threat-dragon/)
+It is an [OWASP Lab Project](https://owasp.org/www-project-threat-dragon/)
 and follows the values and principles of the threat modeling [manifesto](https://www.threatmodelingmanifesto.org/).
 The roadmap for the project is a great UX, a powerful rule engine and integration with other development lifecycle tools.
 

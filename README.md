@@ -9,8 +9,8 @@ Threat Dragon is a threat modelling application which provides model diagramming
 The future of this project will be to focus will be on a powerful rule engine
 and integration with other development lifecycle tools.
 
-Threat Dragon is an [OWASP Incubator Project](https://owasp.org/www-project-threat-dragon/),
-please contribute your ideas and time if you can.
+Threat Dragon is an [OWASP Lab Project](https://owasp.org/www-project-threat-dragon/) run by volunteers.
+There is always plenty to do so please contribute your ideas and time if you can.
 
 ## Testing the docs pages
 * make sure you have jekyll installed, following the

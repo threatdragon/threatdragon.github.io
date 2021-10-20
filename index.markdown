@@ -37,8 +37,7 @@ In the future, there should be deeper integration with GitHub and other code rep
 You can find the source code for Threat Dragon on GitHub
 [OWASP][owasp-organization] / [threat-dragon](https://github.com/OWASP/threat-dragon)
 where you can also ask for changes or report any issues.
-Threat Dragon is currently in development as an OWASP incubator project,
-so there might still be some bugs - if you find one then please
+Threat Dragon is an OWASP Lab project but there still might be some bugs - if you find one then please
 [raise a bug report](https://github.com/OWASP/threat-dragon/issues/new?assignees=&labels=bug&template=bug_report.md&title=).
 
 ![OWASP logo](/public/images/owasp.png){: .image-right }
