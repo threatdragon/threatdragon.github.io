@@ -7,6 +7,9 @@ nav_order: 9
 
 ## [OWASP](https://www.owasp.org) Threat Dragon Downloads
 
+A good [introduction](https://www.youtube.com/watch?v=hUOAoc6QGJo) to Threat Dragon is provided by
+the [OWASP Spotlight](https://www.youtube.com/playlist?list=PLUKo5k_oSrfOTl27gUmk2o-NBKvkTGw0T) series.
+
 ### Install
 The desktop and we app;lication versions of Threat Dragon can be downloaded from the
 [OWASP GitHub area](https://github.com/OWASP/threat-dragon/releases).
