@@ -12,16 +12,16 @@ cross-platform [threat modeling](https://owasp.org/www-community/Threat_Modeling
 application including system diagramming and a rule engine to auto-generate threats/mitigations.
 Threat Dragon supports STRIDE<sup>[1](#footnote1)</sup>, LINDDUN<sup>[2](#footnote2)</sup> and CIA<sup>[3](#footnote3)</sup>.
 
-It is an [OWASP Lab Project](https://owasp.org/www-project-threat-dragon/)
+Threat Dragon is an [OWASP Lab Project](https://owasp.org/www-project-threat-dragon/)
 and follows the values and principles of the threat modeling [manifesto](https://www.threatmodelingmanifesto.org/).
-The roadmap for the project is a great UX, a powerful rule engine and integration with other development lifecycle tools.
+A good [introduction](https://www.youtube.com/watch?v=hUOAoc6QGJo) to Threat Dragon is provided by the [OWASP Spotlight](https://www.youtube.com/playlist?list=PLUKo5k_oSrfOTl27gUmk2o-NBKvkTGw0T) series.
 
 There is a good overview of [threat modeling and risk assessment](https://owasp.org/www-community/Application_Threat_Modeling)
 from OWASP, and this expands on what the Threat Dragon project aims for: 
-* designing the data flow diagram
-* automatic determining and ranking threats
-* suggested mitigations
-* entry of mitigations and counter measures
+* ease of use and accessible
+* designing a data flow diagram
+* suggesting threats
+* entering mitigations and counter measures
 
 The application comes in two variants:
 
