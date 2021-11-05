@@ -15,8 +15,11 @@ desktop application and web application.
 The web application can be run locally or by using a remote server.
 
 ### Using a Docker container
-Pull the Threat Dragon docker image using `docker pull threatdragon/owasp-threat-dragon:latest`.
+Pull the Threat Dragon docker image using `docker pull threatdragon/owasp-threat-dragon:stable`.
 The environment variables will need setting up and there is a [step-by-step guide](/setup-env/) to help with this.
+
+### <ins>Do not use the latest tag (which is the default), as it could be a development release</ins>
+The `stable` tag will always be the latest official release, or use a specific release version.
 
 Once the environment is set up and the docker image is ready, then run the docker container using a command such as:
 
