@@ -7,20 +7,22 @@ nav_order: 9
 
 ## [OWASP](https://www.owasp.org) Threat Dragon Downloads
 
-A good [introduction](https://www.youtube.com/watch?v=hUOAoc6QGJo) to Threat Dragon is provided by
-the [OWASP Spotlight](https://www.youtube.com/playlist?list=PLUKo5k_oSrfOTl27gUmk2o-NBKvkTGw0T) series.
-
 ### Install
 The desktop and we app;lication versions of Threat Dragon can be downloaded from the
 [OWASP GitHub area](https://github.com/OWASP/threat-dragon/releases).
 See the detailed install instructions for the [desktop versions](/install-desktop/)
 or the [web application version](/install-webapp/)
 
+### Training materials
+
 ### Demonstrations
-Recording of Mike Goodwin giving a
+A recording of Mike Goodwin giving a
 [lightning demo](https://youtu.be/n6JGcZGFq5o) during the OWASP Open Security Summit in June 2020
 
-### Training materials
+A good [introduction](https://www.youtube.com/watch?v=hUOAoc6QGJo) to Threat Dragon is provided by
+the [OWASP Spotlight](https://www.youtube.com/playlist?list=PLUKo5k_oSrfOTl27gUmk2o-NBKvkTGw0T) series.
+The [Threat Modeling Gamification](https://www.youtube.com/watch?v=u2tmLrwv-nc) seminar by Vlad Styran
+shows how using Threat Dragon can make threat modeling fun.
 
 #### [OWASP Portland Training Day 2021](https://owasp.org/www-revent-portland-training-day/)
 'Enter the Dragon' demonstration model
