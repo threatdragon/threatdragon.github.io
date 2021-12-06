@@ -23,6 +23,8 @@ A good [introduction](https://www.youtube.com/watch?v=hUOAoc6QGJo) to Threat Dra
 the [OWASP Spotlight](https://www.youtube.com/playlist?list=PLUKo5k_oSrfOTl27gUmk2o-NBKvkTGw0T) series.
 The [Threat Modeling Gamification](https://www.youtube.com/watch?v=u2tmLrwv-nc) seminar by Vlad Styran
 shows how using Threat Dragon can make threat modeling fun.
+Vlad has also provided [Threat Modeling with OWASP Threat Dragon](https://www.youtube.com/watch?v=ebTyyZuIgqI)
+which is in Ukrainian.
 
 #### [OWASP Portland Training Day 2021](https://owasp.org/www-revent-portland-training-day/)
 'Enter the Dragon' demonstration model
