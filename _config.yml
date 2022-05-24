@@ -22,9 +22,9 @@ search_enabled: false
 
 # Aux links for the upper right navigation
 aux_links:
-  "Try the web app":
-    - "//threatdragon.org"
-  "Download the app":
+  "Try version 2.0 web app":
+    - "//threatdragon.com"
+  "Download version 1.x app":
     - "//github.com/OWASP/threat-dragon/releases"
   "Source code on GitHub":
     - "//github.com/OWASP/threat-dragon"
