@@ -4,6 +4,8 @@
 
 This repo provides the [documentation site](https://threatdragon.github.io)
 for [Threat Dragon](http://owasp.org/www-project-threat-dragon).
+[Mike Goodwin](https://github.com/mike-goodwin) created Threat Dragon as an open source community project
+that provides an intuitive and accessible way to model threats.
 
 Threat Dragon is a threat modelling application which provides model diagramming and a rule engine to auto-generate threats/mitigations. 
 The future of this project will be to focus will be on a powerful rule engine
