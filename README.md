@@ -3,14 +3,11 @@
 [![OWASP ZAP scan](https://github.com/threatdragon/threatdragon.github.io/actions/workflows/zap_scan.yaml/badge.svg)](https://github.com/threatdragon/threatdragon.github.io/actions/workflows/zap_scan.yaml)
 
 This repo provides the [documentation site](https://threatdragon.github.io)
-for [Threat Dragon](http://owasp.org/www-project-threat-dragon).
+for Threat Dragon.
 [Mike Goodwin](https://github.com/mike-goodwin) created Threat Dragon as an open source community project
 that provides an intuitive and accessible way to model threats.
 
 Threat Dragon is a threat modelling application which provides model diagramming and a rule engine to auto-generate threats/mitigations. 
-The future of this project will be to focus will be on a powerful rule engine
-and integration with other development lifecycle tools.
-
 Threat Dragon is an [OWASP Lab Project](https://owasp.org/www-project-threat-dragon/) run by volunteers.
 There is always plenty to do so please contribute your ideas and time if you can.
 
