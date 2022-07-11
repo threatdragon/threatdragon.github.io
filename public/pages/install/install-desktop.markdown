@@ -39,7 +39,8 @@ then follow [this FAQ](https://github.com/OWASP/threat-dragon/wiki/FAQs#why-do-i
 to resolve this.
 
 There may be different error messages for older versions of Threat Dragon, in which case try
-[this FAQ](https://github.com/OWASP/threat-dragon/wiki/FAQs#why-do-i-get-developer-can-not-be-verified-errors-after-installing-on-macos). 
+[this FAQ](https://github.com/OWASP/threat-dragon/wiki/FAQs#why-do-i-get-developer-can-not-be-verified-errors-after-installing-on-macos),
+and if you are using the MacOS .zip file then be sure to [read this FAQ](https://github.com/OWASP/threat-dragon/wiki/FAQs#why-do-i-get-permissions-failure-opening-mac-desktop-app-when-installing-from-the-zip-file).
 
 ### Windows installer
 Download the Windows .exe NSIS installer from the
