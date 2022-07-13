@@ -10,13 +10,16 @@ permalink: /about
 [Threat Dragon](http://owasp.org/www-project-threat-dragon) is a free, open-source, 
 cross-platform [threat modeling](https://owasp.org/www-community/Threat_Modeling)
 application including system diagramming and a rule engine to auto-generate threats/mitigations.
-Threat Dragon supports STRIDE<sup>[1](#footnote1)</sup>, LINDDUN<sup>[2](#footnote2)</sup> and CIA<sup>[3](#footnote3)</sup>.
+[Mike Goodwin](https://github.com/mike-goodwin) created Threat Dragon as an open source community project
+that provides an intuitive and accessible way to model threats.
 
 Threat Dragon is an [OWASP Lab Project](https://owasp.org/www-project-threat-dragon/)
 and follows the values and principles of the threat modeling [manifesto](https://www.threatmodelingmanifesto.org/).
 An [introduction](https://www.youtube.com/watch?v=hUOAoc6QGJo) to Threat Dragon is provided by
 the [OWASP Spotlight](https://www.youtube.com/playlist?list=PLUKo5k_oSrfOTl27gUmk2o-NBKvkTGw0T) series,
 and a different take on Threat Dragon is provided by [Threat Modeling Gamification](https://www.youtube.com/watch?v=u2tmLrwv-nc).
+
+Threat Dragon supports STRIDE<sup>[1](#footnote1)</sup>, LINDDUN<sup>[2](#footnote2)</sup> and CIA<sup>[3](#footnote3)</sup>.
 
 There is a good overview of [threat modeling and risk assessment](https://owasp.org/www-community/Application_Threat_Modeling)
 from OWASP, and this expands on what the Threat Dragon project aims for: 
