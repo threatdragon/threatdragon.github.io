@@ -47,9 +47,16 @@ Download the Windows .exe NSIS installer from the
 [github release area](https://github.com/OWASP/threat-dragon/releases/).
 Run the installer and invoke the application from the shortcut.
 
-The current Windows version of the desktop application is not code-signed,
-so you may get a warning when running for the first time. For the time being accept the warning,
-we are working on this and hope to get this application signed soon.
+Windows will warn you that this is an application downloaded from the internet and ask you if you want to keep it.
+We assume that you trust the github download site, so agree to keep the file and the installer will then download.
+Run the installer either from the file icon in your download area or from a command line:
+
+```
+.\OWASP-Threat-Dragon-Setup-1.6.1.exe /S /D=C:\Test
+```
+
+Uninstall using a similar command: `'C:\tmp\Uninstall OWASP-Threat-Dragon.exe'`.
+Note the single quotes because there is a space in the uninstall command name.
 
 ### Command line using npm
 
