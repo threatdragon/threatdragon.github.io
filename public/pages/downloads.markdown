@@ -2,7 +2,7 @@
 layout: page
 title: Downloads
 permalink: /downloads/
-nav_order: 9
+nav_order: 10
 ---
 
 ## [OWASP](https://www.owasp.org) Threat Dragon Downloads

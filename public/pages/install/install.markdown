@@ -4,7 +4,7 @@ title: Install
 permalink: /install/
 has_children: true
 has_toc: true
-nav_order: 2
+nav_order: 3
 ---
 
 ## [OWASP](https://www.owasp.org) Threat Dragon

@@ -1,8 +1,8 @@
 ---
 layout: page
 title: About
-nav_order: 1
 permalink: /about
+nav_order: 2
 ---
 
 ## [OWASP](https://www.owasp.org) Threat Dragon

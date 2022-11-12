@@ -2,7 +2,7 @@
 layout: page
 title: Threat model diagrams
 permalink: /threat-model-diagrams/
-nav_order: 4
+nav_order: 5
 ---
 
 ## [OWASP](https://www.owasp.org) Threat Dragon

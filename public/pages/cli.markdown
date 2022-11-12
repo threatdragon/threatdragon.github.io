@@ -2,7 +2,7 @@
 layout: page
 title: Command line interface
 permalink: /cli/
-nav_order: 7
+nav_order: 8
 ---
 
 ## [OWASP](https://www.owasp.org) Threat Dragon
