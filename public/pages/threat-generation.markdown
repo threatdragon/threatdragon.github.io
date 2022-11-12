@@ -2,7 +2,7 @@
 layout: page
 title: Threat generation
 permalink: /threat-generation/
-nav_order: 5
+nav_order: 6
 ---
 
 ## [OWASP](https://www.owasp.org) Threat Dragon

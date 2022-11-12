@@ -2,7 +2,7 @@
 layout: page
 title: Getting started
 permalink: /getting-started/
-nav_order: 3
+nav_order: 4
 ---
 
 ## [OWASP](https://www.owasp.org) Threat Dragon
