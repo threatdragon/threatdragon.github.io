@@ -8,6 +8,7 @@ _site
 .vscode/
 .settings/
 .jshint*
+.project
 # ignore IntelliJ IDEA files
 .idea/
 
