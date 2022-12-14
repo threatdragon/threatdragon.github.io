@@ -15,22 +15,27 @@ desktop application and web application.
 The web application can be run locally or by using a remote server.
 
 ### Using a Docker container
-Pull the Threat Dragon docker image using `docker pull threatdragon/owasp-threat-dragon:stable`.
-The environment variables will need setting up and there is a [step-by-step guide](/setup-env/) to help with this.
+Pull the Threat Dragon docker image using `docker pull owasp/threat-dragon:stable`.
+The `stable` tag will always be the latest official release, alongside the specific release versions.
 
-### <ins>Do not use the latest tag (which is the default), as it could be a development release</ins>
-The `stable` tag will always be the latest official release, or use a specific release version.
+To obtain a specific version, for example v1.6.0, use a command such as `docker pull owasp/threat-dragon:v1.6.0`
 
-Once the environment is set up and the docker image is ready, then run the docker container using a command such as:
+**Do not use the latest tag (which may be the default) because it could be a development release.**
+
+The environment variables will need configuration and there is a [step-by-step guide](/setup-env/) to help with this.
+Once the environment is set up and the docker image is ready, run the docker container using a command such as:
 
 ```
-docker run -it --rm -p 3000:3000 -v $(pwd)/.env:/app/.env docker.io/threatdragon/owasp-threat-dragon:v1.5.8
+docker run -it --rm -p 3000:3000 -v $(pwd)/.env:/app/.env owasp/threat-dragon:v1.6.0
 ```
 
 assuming:
 * use of port 3000, this can be changed to another port for example `-p 3000:5000` for port 5000
 * you are running from the directory  which contains the `.env` file
 * it was version `1.5.8` that was pulled from dockerhub. Replace with later versions as necessary
+
+Note that a valid environment must  be provided, otherwise the container will halt with errors
+such as `Error: GITHUB_CLIENT_ID is a required property`.
 
 ### Installing from source
 
