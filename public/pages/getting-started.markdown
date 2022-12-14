@@ -96,18 +96,16 @@ These examples will give some ideas on how to get started with your own models.
 
 ## Opening an existing model
 
-### Web application
-![Open existing model](/public/images/open-model.png){: .image-left }
+![Open existing model](/public/images/open-model.png)
 
+### Web application
 If you have a repository that already has threat models, you can open them by
 clicking on the **open** area on the Welcome page.
 You will then be able to navigate to a github repository and branch
 and then choose from a list of existing model files.
 
 ### Desktop application
-![Open existing model](/public/images/open-model.png){: .image-left }
-
-If you have an existing model file saved locally, you can open it by clicking on
+For an existing model file saved on the local file system, open it by clicking on
 the **open** area on the Welcome page.
 You will then be able to navigate to the model file in your local file system and open it.
 
