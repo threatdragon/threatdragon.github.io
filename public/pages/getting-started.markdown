@@ -5,6 +5,21 @@ permalink: /getting-started/
 nav_order: 4
 ---
 
+<style type="text/css">
+.image-left {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+}
+.image-right {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
 ## [OWASP](https://www.owasp.org) Threat Dragon
 Getting started with [Threat Dragon](http://owasp.org/www-project-threat-dragon) models
 
@@ -15,6 +30,8 @@ The Threat Dragon web variant stores its threat models in your GitHub repos.
 This is so that the models can stay close to the code they are modelling.
 Future versions will provide a deeper integration so watch this space but for now,
 when you login to Threat Dragon for the first time you will need to access Github.
+
+![Open new model](/public/images/new-model.png){: .image-left }
 
 To get started with your threat model access the welcome page and select
 click on the **plus** area.
@@ -69,21 +86,27 @@ Congratulations! You have got the basics done. Next step ...
 mapping out your system [in a diagram](/threat-model-diagrams).
 
 ## Loading a demo model
-If you are wondering how to start you can load a sample threat model.
-On the welcome page you can download an example by clicking on the **download** area.
+![Open demo model](/public/images/explore-demo-model.png){: .image-left }
+
+If you are wondering how to start you can load a demonstration threat model.
+On the welcome page select an example by clicking on the **examples** area.
 If you are using the desktop application you can select 'Open Demo Model' pull down menu.
 
-This should give you some ideas on how to get started with your own model, and has
-diagrams, model details and threats as examples.
+These examples will give some ideas on how to get started with your own models.
 
 ## Opening an existing model
 
 ### Web application
+![Open existing model](/public/images/open-model.png){: .image-left }
+
 If you have a repository that already has threat models, you can open them by
 clicking on the **open** area on the Welcome page.
-You will then be able to select a repo and branch and then you will be able to choose from a list of models.
+You will then be able to navigate to a github repository and branch
+and then choose from a list of existing model files.
 
 ### Desktop application
+![Open existing model](/public/images/open-model.png){: .image-left }
+
 If you have an existing model file saved locally, you can open it by clicking on
 the **open** area on the Welcome page.
 You will then be able to navigate to the model file in your local file system and open it.
