@@ -47,8 +47,11 @@ Download the Windows .exe NSIS installer from the
 [github release area](https://github.com/OWASP/threat-dragon/releases/).
 Run the installer and invoke the application from the shortcut.
 
-Windows will warn you that this is an application downloaded from the internet and ask you if you want to keep it.
-We assume that you trust the github download site, so agree to keep the file and the installer will then download.
+Windows may warn you that this is an application downloaded from the internet and ask you if you want to keep it.
+Assuming that you can trust the github download site, agree to keep the file and the installer will then run.
+
+![out of scope elements with dashed lines](/public/images/win-download.png)
+
 Run the installer either from the file icon in your download area or from a command line:
 
 ```
