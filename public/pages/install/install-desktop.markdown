@@ -27,7 +27,7 @@ Alternatively a platform independent Snap image is available via the
 [official snapcraft distribution](https://snapcraft.io/threat-dragon).
 
 ### MacOS installer
-Download the .dmg MacOS installer from the
+Download the **.dmg** MacOS installer from the
 [github release area](https://github.com/OWASP/threat-dragon-desktop/releases/).
 Open the download and drag 'OWASP Threat  Dragon' to the application directory. When the copy has
 finished then Threat Dragon can be run from Apple Launchpad or using Finder -> Applications.
@@ -39,8 +39,12 @@ then follow [this FAQ](https://github.com/OWASP/threat-dragon/wiki/FAQs#why-do-i
 to resolve this.
 
 There may be different error messages for older versions of Threat Dragon, in which case try
-[this FAQ](https://github.com/OWASP/threat-dragon/wiki/FAQs#why-do-i-get-developer-can-not-be-verified-errors-after-installing-on-macos),
-and if you are using the MacOS .zip file then be sure to [read this FAQ](https://github.com/OWASP/threat-dragon/wiki/FAQs#why-do-i-get-permissions-failure-opening-mac-desktop-app-when-installing-from-the-zip-file).
+[this FAQ](https://github.com/OWASP/threat-dragon/wiki/FAQs#why-do-i-get-developer-can-not-be-verified-errors-after-installing-on-macos)
+for a solution.
+
+If you decide to use the MacOS **.zip** file then be sure to
+[read this FAQ first](https://github.com/OWASP/threat-dragon/wiki/FAQs#why-do-i-get-permissions-failure-opening-mac-desktop-app-when-installing-from-the-zip-file).
+If you run into problems then consider using the **.dmg** download instead.
 
 ### Windows installer
 Download the Windows .exe NSIS installer from the
@@ -50,7 +54,7 @@ Run the installer and invoke the application from the shortcut.
 Windows may warn you that this is an application downloaded from the internet and ask you if you want to keep it.
 Assuming that you can trust the github download site, agree to keep the file and the installer will then run.
 
-![out of scope elements with dashed lines](/public/images/win-download.png)
+![Windows download warning](/public/images/win-download.png)
 
 Run the installer either from the file icon in your download area or from a command line:
 
