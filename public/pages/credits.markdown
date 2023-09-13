@@ -16,6 +16,8 @@ nav_order: 12
 
 ## [OWASP](https://www.owasp.org) Threat Dragon
 
+### note that this page is out of date, see the latest version 1.x [documentation][docsv1]
+
 ### Credits
 
 [Mike Goodwin](mailto:mike.goodwin@owasp.org) is the originator, founder and leader of OWASP Threat Dragon.
@@ -36,3 +38,5 @@ We are very grateful to the talented artist [DЯΣΛMƧVΣЯƧΣ](https://linktr
 DЯΣΛMƧVΣЯƧΣ has allowed use of the [original artwork](https://www.deviantart.com/thelonelyqueen/art/HW-Lil-Baby-Dragon-Lineart-300502156)
 on condition that it used only for 'not for profit' purposes - perfect for our open source project.
 Cupcake has a birthday as well: DЯΣΛMƧVΣЯƧΣ uploaded the original artwork on 7th May 2012.
+
+[docsv1]: https://owasp.org/www-project-threat-dragon/docs-1/

@@ -8,20 +8,21 @@ nav_order: 3
 
 ## [OWASP](https://www.owasp.org) Threat Dragon
 
-[Threat Dragon](http://owasp.org/www-project-threat-dragon) comes in two variants, 
-desktop application and web application.
+### note that this page is out of date, see the latest version 1.x [documentation][docsv1]
+
+[Threat Dragon](http://owasp.org/www-project-threat-dragon) comes in two variants, a desktop application and a web application.
 
 ## Desktop application install instructions
-Installers can be downloaded from the [OWASP GitHub area](https://github.com/OWASP/threat-dragon/releases):
+Installers can be downloaded from the [OWASP GitHub area][releases]:
 
 * Windows (64 bit) installer
 * MacOS installer
 * Linux snap, AppImage, debian and rpm installers
 
 ### Linux installer and AppImage
-It is probably simpler to use the [AppImage](https://github.com/OWASP/threat-dragon/releases/) for most Linux platforms,
-but packages for both Debian and Fedora Linux on AMD64 and X86-64bit platforms can also be downloaded from the
-[github release area](https://github.com/OWASP/threat-dragon/releases/).
+It is probably simpler to use the [AppImage][releases] for most Linux platforms,
+but packages for both Debian and Fedora Linux on AMD64 and X86-64bit platforms
+can also be downloaded from the [github release area][releases].
 
 Alternatively a platform independent Snap image is available via the
 [official snapcraft distribution](https://snapcraft.io/threat-dragon).
@@ -47,8 +48,7 @@ If you decide to use the MacOS **.zip** file then be sure to
 If you run into problems then consider using the **.dmg** download instead.
 
 ### Windows installer
-Download the Windows .exe NSIS installer from the
-[github release area](https://github.com/OWASP/threat-dragon/releases/).
+Download the Windows .exe NSIS installer from the [github release area][releases].
 Run the installer and invoke the application from the shortcut.
 
 Windows may warn you that this is an application downloaded from the internet and ask you if you want to keep it.
@@ -88,3 +88,6 @@ There is a command line interface, run help to see what commands are available:
 For example to export a given threat model file to pdf :
 
 `npm run pdf ./threat-model.json`
+
+[docsv1]: https://owasp.org/www-project-threat-dragon/docs-1/
+[releases]: https://github.com/OWASP/threat-dragon/releases/tag/v1.6.1

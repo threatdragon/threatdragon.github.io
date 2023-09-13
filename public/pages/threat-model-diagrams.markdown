@@ -7,6 +7,8 @@ nav_order: 5
 
 ## [OWASP](https://www.owasp.org) Threat Dragon
 
+### note that this page is out of date, see the latest version 1.x [documentation][docsv1]
+
 Creating the [Threat Dragon](http://owasp.org/www-project-threat-dragon) diagrams
 
 Once you have [created or opened](/getting-started) an existing threat model file 
@@ -99,3 +101,5 @@ To edit the properties of a model element, first select it.
 The element properties are shown on the right side of the diagram editor.
 In a future version of Threat Dragon, these properties will be used by the
 threat generation engine to suggest threats and mitigations for your model.
+
+[docsv1]: https://owasp.org/www-project-threat-dragon/docs-1/

@@ -8,6 +8,8 @@ nav_order: 2
 
 ## [OWASP](https://www.owasp.org) Threat Dragon
 
+### note that this page is out of date, see the latest version 1.x [documentation][docsv1]
+
 Setting up the web application environment variables for [Threat Dragon](http://owasp.org/www-project-threat-dragon).
 
 ## Configuring Environment Variables
@@ -81,3 +83,5 @@ and then navigate in a browser to "http://localhost:3000/"
 Example screenshot of registering a new OAuth application:
 
 ![Register new OAuth application](/public/images/register-new-OAuth-application.png)
+
+[docsv1]: https://owasp.org/www-project-threat-dragon/docs-1/

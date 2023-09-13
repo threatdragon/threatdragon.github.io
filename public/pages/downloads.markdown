@@ -7,10 +7,12 @@ nav_order: 10
 
 ## [OWASP](https://www.owasp.org) Threat Dragon Downloads
 
+### note that this page is out of date, see the latest version 1.x [documentation][docsv1]
+
 ### Install
 The desktop and web application versions of Threat Dragon can be downloaded from the
 [OWASP GitHub area](https://github.com/OWASP/threat-dragon/releases),
-with [version 1.6.1](https://github.com/OWASP/threat-dragon/releases/tag/v1.6.1) being the latest version.
+with [version 1.6.1][releases] being the latest version.
 See the install instructions for the [desktop versions](/install-desktop/)
 or the [web application version](/install-webapp/).
 
@@ -46,3 +48,6 @@ Presentation at the Bristol chapter [meeting September 2017](https://www.meetup.
 OpenDocument Presentation format 
 [abbreviated version](/public/downloads/OWASP_introduction_threat_modeling_short.odp)
 and [longer version](/public/downloads/OWASP_introduction_threat_modeling.odp).
+
+[docsv1]: https://owasp.org/www-project-threat-dragon/docs-1/
+[releases]: https://github.com/OWASP/threat-dragon/releases/tag/v1.6.1

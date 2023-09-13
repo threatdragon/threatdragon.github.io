@@ -7,6 +7,8 @@ nav_order: 9
 
 ## [OWASP](https://www.owasp.org) Threat Dragon
 
+### note that this page is out of date, see the latest version 1.x [documentation][docsv1]
+
 ### Utilities
 
 Threat Dragon has a growing collection of utilities and scripts which can be used to
@@ -45,3 +47,5 @@ and a better tracking of the actions taken to mitigate them.
 #### Run the code
 - To run the code: `python3 itmj.py [path threat dragon file] [key project] [epic project]`
 - Example: `python3 itmj.py td_json/test1.json ITMJ ITMJ-2`
+
+[docsv1]: https://owasp.org/www-project-threat-dragon/docs-1/
