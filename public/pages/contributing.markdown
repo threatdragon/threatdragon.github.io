@@ -7,6 +7,8 @@ nav_order: 11
 
 ## [OWASP](https://www.owasp.org) Threat Dragon
 
+### note that this page is out of date, see the latest version 1.x [documentation][docsv1]
+
 ### Contributing
 
 Pull requests, feature requests, bug reports and feedback of any kind are very welcome, please refer to the page for
@@ -26,3 +28,5 @@ For secure disclosure, please see the [security policy](https://github.com/OWASP
 * [Mike Goodwin](mailto:mike.goodwin@owasp.org)
 * [Jon Gadsden](mailto:jon.gadsden@owasp.org)
 * [Leo Reading](mailto:leo.reading@owasp.org)
+
+[docsv1]: https://owasp.org/www-project-threat-dragon/docs-1/

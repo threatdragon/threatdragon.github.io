@@ -8,8 +8,9 @@ nav_order: 1
 
 ## [OWASP](https://www.owasp.org) Threat Dragon
 
-[Threat Dragon](http://owasp.org/www-project-threat-dragon) comes in two variants, 
-desktop application and web application.
+### note that this page is out of date, see the latest version 1.x [documentation][docsv1]
+
+[Threat Dragon](http://owasp.org/www-project-threat-dragon) comes in two variants, a desktop application and a web application.
 
 ## Web application install instructions
 The web application can be run locally or by using a remote server.
@@ -90,3 +91,5 @@ Once your environment variables are set up, start the node web server:
 `npm start`
 
 If you then browse to `http://localhost:3000` you should see the running application.
+
+[docsv1]: https://owasp.org/www-project-threat-dragon/docs-1/

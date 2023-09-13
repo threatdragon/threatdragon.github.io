@@ -23,6 +23,8 @@ nav_order: 4
 ## [OWASP](https://www.owasp.org) Threat Dragon
 Getting started with [Threat Dragon](http://owasp.org/www-project-threat-dragon) models
 
+### note that this page is out of date, see the latest version 1.x [documentation][docsv1]
+
 ## Create a new model
 
 ### If using the Web application
@@ -123,3 +125,5 @@ You can then customise the report to show or hide:
 On the desktop variant of Threat Dragon you can **Print** the report or **Save** it as a PDF.
 On the web variant, you can **Print** the report and then, on most browsers,
 the print dialog allows you to save the report as a PDF.
+
+[docsv1]: https://owasp.org/www-project-threat-dragon/docs-1/

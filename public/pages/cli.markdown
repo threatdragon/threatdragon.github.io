@@ -7,6 +7,8 @@ nav_order: 8
 
 ## [OWASP](https://www.owasp.org) Threat Dragon
 
+### note that this page is out of date, see the latest version 1.x [documentation][docsv1]
+
 Threat Dragon can be run from the command line and there is a command line interface
 which can be used to access some Threat Dragon features.
 
@@ -72,3 +74,4 @@ Verbosity can be increased from the default of 'error':<br>
 `-vv` add verbose and debug<br>
 `-vvv` all levels of logging<br>
 
+[docsv1]: https://owasp.org/www-project-threat-dragon/docs-1/

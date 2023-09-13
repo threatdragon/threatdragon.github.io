@@ -7,6 +7,8 @@ nav_order: 6
 
 ## [OWASP](https://www.owasp.org) Threat Dragon
 
+### note that this page is out of date, see the latest version 1.x [documentation][docsv1]
+
 Threat generation for [Threat Dragon](http://owasp.org/www-project-threat-dragon)
 
 ## Adding and editing single threats
@@ -61,3 +63,5 @@ When editing a threat model diagram, selecting '**+** Threats within context"
 will suggest threats using the properties for the selected element.
 Many of these suggestions based on the OWASP
 [Automated Threats to Web Applications](https://owasp.org/www-project-automated-threats-to-web-applications/).
+
+[docsv1]: https://owasp.org/www-project-threat-dragon/docs-1/
