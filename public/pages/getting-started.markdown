@@ -3,6 +3,8 @@ layout: page
 title: Getting started
 permalink: /getting-started/
 nav_order: 4
+tags: threatdragon
+document: Threat Dragon version 1.6.1
 ---
 
 <style type="text/css">
@@ -21,13 +23,13 @@ nav_order: 4
 </style>
 
 ## [OWASP](https://www.owasp.org) Threat Dragon
-Getting started with [Threat Dragon](http://owasp.org/www-project-threat-dragon) models
 
-### note that this page is out of date, see the latest version 1.x [documentation][docsv1]
+Getting started with [Threat Dragon](http://owasp.org/www-project-threat-dragon) models
 
 ## Create a new model
 
 ### If using the Web application
+
 The Threat Dragon web variant stores its threat models in your GitHub repos.
 This is so that the models can stay close to the code they are modelling.
 Future versions will provide a deeper integration so watch this space but for now,
@@ -48,6 +50,7 @@ When you pick a branch you will be taken to the threat model edit page
 where you can enter general information about your model.
 
 ### If using the Desktop application
+
 The Threat Dragon desktop variant stores its threat models on your local filesystem.
 To get started with your threat model start  the applications and from the welcome page
 select on the **plus** area, or pull down menu 'New'. You will then need to save
@@ -57,6 +60,7 @@ You will then be taken straight to the threat model edit page where you
 can enter general information about your model.
 
 ## Threat model edit page
+
 The Title field is mandatory. All the rest are optional, but they provide context for your model.
 This can be useful if someone else has to pick the model up in the future.
 Click on the **Edit** button to start editing the threat model details.
@@ -88,6 +92,7 @@ Congratulations! You have got the basics done. Next step ...
 mapping out your system [in a diagram](/threat-model-diagrams).
 
 ## Loading a demo model
+
 ![Open demo model](/public/images/explore-demo-model.png){: .image-left }
 
 If you are wondering how to start you can load a demonstration threat model.
@@ -101,12 +106,14 @@ These examples will give some ideas on how to get started with your own models.
 ![Open existing model](/public/images/open-model.png)
 
 ### Web application
+
 If you have a repository that already has threat models, you can open them by
 clicking on the **open** area on the Welcome page.
 You will then be able to navigate to a github repository and branch
 and then choose from a list of existing model files.
 
 ### Desktop application
+
 For an existing model file saved on the local file system, open it by clicking on
 the **open** area on the Welcome page.
 You will then be able to navigate to the model file in your local file system and open it.
@@ -114,10 +121,12 @@ You will then be able to navigate to the model file in your local file system an
 The demo model should give you some ideas on how to get started with your own model.
 
 ## Threat model report
+
 From the Threat Model details view you can see a summary report of your model listing the diagrams,
 elements and threats. Towards the bottom right of the page click on the **Report** button.
 
 You can then customise the report to show or hide:
+
 * Out of scope model elements
 * Mitigated threats
 * Threat model diagrams
@@ -125,5 +134,3 @@ You can then customise the report to show or hide:
 On the desktop variant of Threat Dragon you can **Print** the report or **Save** it as a PDF.
 On the web variant, you can **Print** the report and then, on most browsers,
 the print dialog allows you to save the report as a PDF.
-
-[docsv1]: https://owasp.org/www-project-threat-dragon/docs-1/

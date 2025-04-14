@@ -3,16 +3,17 @@ layout: page
 title: Command line interface
 permalink: /cli/
 nav_order: 8
+tags: threatdragon
+document: Threat Dragon version 1.6.1
 ---
 
 ## [OWASP](https://www.owasp.org) Threat Dragon
-
-### note that this page is out of date, see the latest version 1.x [documentation][docsv1]
 
 Threat Dragon can be run from the command line and there is a command line interface
 which can be used to access some Threat Dragon features.
 
 ### Run Threat Dragon from the command line
+
 With the desktop version of [Threat Dragon](http://owasp.org/www-project-threat-dragon) installed,
 and if the executable is in the environment path, then Threat Dragon can be run from the command line.
 
@@ -29,6 +30,7 @@ AppImage does not need installation, so after downloading version 1.3.1 (for exa
 `./OWASP-Threat-Dragon-1.3.1.AppImage`
 
 ### Threat Dragon command line interface
+
 The command line interface can be used to directly access some of Threat Dragon's functionality.
 
 Ensure that the executable is in the environment path and run this command to get help :
@@ -69,9 +71,7 @@ Options:
   --help         Show help                                             [boolean]
 ```
 
-Verbosity can be increased from the default of 'error':<br>
-`-v` add warnings and info<br>
-`-vv` add verbose and debug<br>
-`-vvv` all levels of logging<br>
-
-[docsv1]: https://owasp.org/www-project-threat-dragon/docs-1/
+Verbosity can be increased from the default of 'error':  
+`-v` add warnings and info  
+`-vv` add verbose and debug  
+`-vvv` all levels of logging  
