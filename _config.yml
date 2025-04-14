@@ -1,8 +1,5 @@
 # Site settings
 # Used to personalize the Threat Dragon site
-# Accessed via {{ site.title }}, {{ site.email }}, and so on, in the HTML files
-# Create custom variable,
-# and they will be accessible in the templates via {{ site.myvariable }}
 
 title: Threat Dragon
 email: jon.gadsden@owasp.org
@@ -22,14 +19,15 @@ search_enabled: false
 
 # Aux links for the upper right navigation
 aux_links:
-  "Try version 2.0 web app":
+  "Try version 2.x web app":
     - "//www.threatdragon.com/#/"
-  "Download version 1.x app":
+  "Download version 2.x app":
     - "//github.com/OWASP/threat-dragon/releases"
   "Source code on GitHub":
     - "//github.com/OWASP/threat-dragon"
   "OWASP project page":
     - "//owasp.org/www-project-threat-dragon"
+
 # Make Aux links open in a new tab
 aux_links_new_tab: true
 

@@ -4,32 +4,34 @@ title: Desktop application install
 parent: Install
 permalink: /install-desktop/
 nav_order: 3
+tags: threatdragon
+document: Threat Dragon version 1.6.1
 ---
 
 ## [OWASP](https://www.owasp.org) Threat Dragon
 
-### note that this page is out of date, see the latest version 1.x [documentation][docsv1]
-
-[Threat Dragon](http://owasp.org/www-project-threat-dragon) comes in two variants, a desktop application and a web application.
+[Threat Dragon][td] comes in two variants, a desktop application and a web application.
 
 ## Desktop application install instructions
-Installers can be downloaded from the [OWASP GitHub area][releases]:
+
+Installers can be downloaded from the [OWASP GitHub area][release]:
 
 * Windows (64 bit) installer
 * MacOS installer
 * Linux snap, AppImage, debian and rpm installers
 
 ### Linux installer and AppImage
-It is probably simpler to use the [AppImage][releases] for most Linux platforms,
+
+It is probably simpler to use the [AppImage][release] for most Linux platforms,
 but packages for both Debian and Fedora Linux on AMD64 and X86-64bit platforms
-can also be downloaded from the [github release area][releases].
+can also be downloaded from the [github release area][release].
 
 Alternatively a platform independent Snap image is available via the
 [official snapcraft distribution](https://snapcraft.io/threat-dragon).
 
 ### MacOS installer
-Download the **.dmg** MacOS installer from the
-[github release area](https://github.com/OWASP/threat-dragon-desktop/releases/).
+
+Download the **.dmg** MacOS installer from the [github release area][release].
 Open the download and drag 'OWASP Threat  Dragon' to the application directory. When the copy has
 finished then Threat Dragon can be run from Apple Launchpad or using Finder -> Applications.
 
@@ -48,7 +50,8 @@ If you decide to use the MacOS **.zip** file then be sure to
 If you run into problems then consider using the **.dmg** download instead.
 
 ### Windows installer
-Download the Windows .exe NSIS installer from the [github release area][releases].
+
+Download the Windows .exe NSIS installer from the [github release area][release].
 Run the installer and invoke the application from the shortcut.
 
 Windows may warn you that this is an application downloaded from the internet and ask you if you want to keep it.
@@ -89,5 +92,5 @@ For example to export a given threat model file to pdf :
 
 `npm run pdf ./threat-model.json`
 
-[docsv1]: https://owasp.org/www-project-threat-dragon/docs-1/
-[releases]: https://github.com/OWASP/threat-dragon/releases/tag/v1.6.1
+[release]: https://github.com/OWASP/threat-dragon/releases/tag/v1.6.1
+[td]: http://owasp.org/www-project-threat-dragon

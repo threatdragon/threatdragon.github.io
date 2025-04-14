@@ -3,6 +3,8 @@ layout: page
 title: Home
 permalink: /home
 nav_order: 1
+tags: threatdragon
+document: Threat Dragon version 1.6.1
 ---
 
 <style type="text/css">
@@ -20,13 +22,9 @@ nav_order: 1
 }
 </style>
 
-[owasp-organization]: https://github.com/owasp
-
 ## [OWASP](https://www.owasp.org) Threat Dragon
 
 ![Cupcake Image](/public/images/threatdragonx256.png){: .image-left }
-
-### note that this page is out of date, see the latest version 1.x [documentation][docsv1]
 
 Threat Dragon is an open-source threat modelling tool from OWASP.
 It is used both as a [web application](/install-webapp/)
@@ -45,5 +43,3 @@ Threat Dragon is an OWASP Lab project but there still might be some bugs - if yo
 [raise a bug report](https://github.com/OWASP/threat-dragon/issues/new?assignees=&labels=bug&template=bug_report.md&title=).
 
 ![OWASP logo](/public/images/owasp.png){: .image-right }
-
-[docsv1]: https://owasp.org/www-project-threat-dragon/docs-1/
