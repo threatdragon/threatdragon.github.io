@@ -1,6 +1,10 @@
 ---
+title: Home
 layout: home
 permalink: /
+nav_order: 0
+tags: threatdragon
+document: Threat Dragon version 1.6.1
 ---
 
 <style type="text/css">
@@ -18,8 +22,6 @@ permalink: /
 }
 </style>
 
-[owasp-organization]: https://github.com/owasp
-
 ## [OWASP](https://www.owasp.org) Threat Dragon
 
 ![Cupcake Image](/public/images/threatdragonx256.png){: .image-left }
@@ -34,10 +36,12 @@ This means that to use web application you have to sign in with a GitHub account
 Other than that, the user experience is currently almost identical between the web and desktop variants.
 In the future, there should be deeper integration with GitHub and other code repositories.
 
-You can find the source code for Threat Dragon on GitHub
-[OWASP][owasp-organization] / [threat-dragon](https://github.com/OWASP/threat-dragon)
+You can find the source code for Threat Dragon on GitHub [OWASP][owasp] / [threat-dragon][td]
 where you can also ask for changes or report any issues.
 Threat Dragon is an OWASP Lab project but there still might be some bugs - if you find one then please
 [raise a bug report](https://github.com/OWASP/threat-dragon/issues/new?assignees=&labels=bug&template=bug_report.md&title=).
 
 ![OWASP logo](/public/images/owasp.png){: .image-right }
+
+[owasp]: https://github.com/owasp
+[td]: https://github.com/OWASP/threat-dragon
