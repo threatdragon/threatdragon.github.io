@@ -1,8 +1,6 @@
 ---
-title: Home
 layout: home
 permalink: /
-nav_order: 0
 tags: threatdragon
 document: Threat Dragon version 1.6.1
 ---
